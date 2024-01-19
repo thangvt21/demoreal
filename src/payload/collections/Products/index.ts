@@ -1,5 +1,4 @@
 import type { CollectionConfig } from 'payload/types'
-
 import { admins } from '../../access/admins'
 import { Archive } from '../../blocks/ArchiveBlock'
 import { CallToAction } from '../../blocks/CallToAction'

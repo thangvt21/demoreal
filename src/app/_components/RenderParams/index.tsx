@@ -1,5 +1,4 @@
 import { Suspense } from 'react'
-
 import { Props, RenderParamsComponent } from './Component'
 
 // Using `useSearchParams` from `next/navigation` causes the entire route to de-optimize into client-side rendering

@@ -1,11 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
-
 import { Media } from '../../../_components/Media'
 import { Price } from '../../../_components/Price'
 import { formatDateTime } from '../../../_utilities/formatDateTime'
 import { getMeUser } from '../../../_utilities/getMeUser'
-
 import classes from './index.module.scss'
 
 export default async function Purchases() {

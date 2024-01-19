@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-
 import { Page, Settings } from '../../../payload/payload-types'
 import { staticCart } from '../../../payload/seed/cart-static'
 import { fetchDoc } from '../../_api/fetchDoc'
@@ -12,7 +11,6 @@ import { Hero } from '../../_components/Hero'
 import { Message } from '../../_components/Message'
 import { generateMeta } from '../../_utilities/generateMeta'
 import { CartPage } from './CartPage'
-
 import classes from './index.module.scss'
 
 // Force this page to be dynamic so that Next.js does not cache it

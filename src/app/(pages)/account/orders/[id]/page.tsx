@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-
 import { Order } from '../../../../../payload/payload-types'
 import { HR } from '../../../../_components/HR'
 import { Media } from '../../../../_components/Media'
@@ -10,7 +9,6 @@ import { Price } from '../../../../_components/Price'
 import { formatDateTime } from '../../../../_utilities/formatDateTime'
 import { getMeUser } from '../../../../_utilities/getMeUser'
 import { mergeOpenGraph } from '../../../../_utilities/mergeOpenGraph'
-
 import classes from './index.module.scss'
 
 export default async function Order({ params: { id } }) {
@@ -72,7 +70,6 @@ export default async function Order({ params: { id } }) {
             } = item
 
             const metaImage = meta?.image
-
             return (
               <Fragment key={index}>
                 <div className={classes.row}>
@@ -111,7 +108,6 @@ export default async function Order({ params: { id } }) {
               </Fragment>
             )
           }
-
           return null
         })}
       </div>

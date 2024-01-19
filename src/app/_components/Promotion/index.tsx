@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-
 import classes from './index.module.scss'
 
 const Promotion = () => {
@@ -41,10 +40,7 @@ const Promotion = () => {
     <section className={classes.promotion}>
       <div className={classes.textBox}>
         <h3 className={classes.title}>The Valentine’s Day Gifting Event 💝💝💝</h3>
-        <p>
-          Make every heart melt with the most thoughtful ideas 💘 – at incredible prices!
-        </p>
-
+        <p>Make every heart melt with the most thoughtful ideas 💘 – at incredible prices!</p>
         <ul className={classes.stats}>
           <StatBox label="Days" value={time.days} />
           <StatBox label="Hours" value={time.hours} />
